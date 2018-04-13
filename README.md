@@ -4,9 +4,7 @@
 ![ScreenRecroding](https://github.com/souvickcse/TinderUserProfile/raw/master/ScreenRecording.gif)
 * Add ProfileView.m,ProfileView.h class to your project.
 * Set the class of the UiView to ProfileView. You need to have PureLayout & SDWebImage.
-
-
-Call to this to populate the image list: `- (void)setUpImageViewWithImageArr:(NSArray *)arrImg userDetails:(NSDictionary *)userDetails;`
+* Call to this to populate the image list: `- (void)setUpImageViewWithImageArr:(NSArray *)arrImg userDetails:(NSDictionary *)userDetails;`
 
 **arrImg** have the list of the links of the images.
 
